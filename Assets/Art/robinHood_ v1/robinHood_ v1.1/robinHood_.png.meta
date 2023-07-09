@@ -1,0 +1,1179 @@
+fileFormatVersion: 2
+guid: f6bf20505052658499e6c76ea24e4b15
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robinHood__0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 120
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32468034a2ffda741ab710ec3ddce8ef
+      internalID: -1631257509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 120
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e495c5cc4afebc241b631ee0374419a7
+      internalID: -637696212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 120
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2926ed65998e3c8419fb28c47d35d448
+      internalID: 268394585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 120
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ade7d45d80d0d409934e936b7b22bb
+      internalID: 238458842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 120
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2788d208ae256c4a8c1711523d35fb3
+      internalID: -749844860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 120
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7976d429e324d144190da17dbfc1e2cb
+      internalID: 262771707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 120
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27f0c278dbd4a34ab9ccecf2face348
+      internalID: 337901939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__7
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 120
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc2ba4adf10d2b45a136bc3ecca65cc
+      internalID: -475667279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 96
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7763950dd0c96c4e9b9ae5a0e4edf54
+      internalID: 619190338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 96
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a13e9a0eb4312c4b86f239f4a4cd604
+      internalID: -1578248344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 96
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d22a67789b922743a6341c065ac1cad
+      internalID: -1096932280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__11
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 96
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33e2dc9ac9f3c44b8645624d618fefc
+      internalID: -2060963540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 96
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbd82b0b2526bb4895bce84ce17d61f
+      internalID: -1766867557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 96
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e114ddca66506448cb7b0945d4e5f1
+      internalID: 402987906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__14
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 96
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae26a4de8df34ae4297fbbf552802560
+      internalID: -779132987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__15
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 96
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65b090b55c9204458c0a3f2b4e21b15
+      internalID: 839512369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 73
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca955ecbe6a9a14f85c22a727dbf2a0
+      internalID: 1586680647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__17
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 74
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e1cd91c588b5e46bf8914471756230
+      internalID: -553043186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 72
+        width: 14
+        height: 23
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaad8962987125046a0dd098059698b2
+      internalID: 677412005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__19
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 72
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36925d5ff9c33ce45baa0c78e072061e
+      internalID: -1162961753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__20
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 73
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef20429d039cb894dbcc839bc36fac43
+      internalID: 1583476923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__21
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 74
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77da36d83ee4b8f4ba673b3f771092c8
+      internalID: -1640985744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 72
+        width: 14
+        height: 23
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe9c1cac0875d74b8e7f96fd2ea5ff3
+      internalID: 92068669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__23
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 72
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3786f86bccb044496dd862ddf3b6d1
+      internalID: -622629390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 48
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16445ef78f33ce445994f9b1ac55c7ba
+      internalID: 535550078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 48
+        width: 11
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e193b0c76543ba45b1166fde9e309c1
+      internalID: -580842411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__26
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 48
+        width: 11
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f48698a7f9bac4aad86c56db0dc15f
+      internalID: -1167139124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__27
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 48
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a08fdade0cf9954a998de2c822d6cb9
+      internalID: -223320559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__28
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 48
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c925fb342631dce4588b89c3601bd5f1
+      internalID: 917196945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__29
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 48
+        width: 12
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ffc1eb9a69cf84b8823e3a2392f393
+      internalID: 1292501612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__30
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 48
+        width: 11
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc469a8b3145afb4bbd686c880b270f8
+      internalID: 1107945191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__31
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 48
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8169739cf7c7df489ff5fb338430627
+      internalID: 999164342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 24
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2647e824793a14b9b402e056a99474
+      internalID: -829233374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__33
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 24
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea40cb2fb5c925744aaa3d6a60450c93
+      internalID: -1188877009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__34
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 24
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d27d0371b45b74498dc5d338642d119
+      internalID: -734720054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__35
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 24
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e147d5f39fff6d49bbad1f42b287eed
+      internalID: -1527635163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__36
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 24
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b035fec80916ca4b85fa034503a4b70
+      internalID: -1488096451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__37
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 24
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b911e156146b06f4db030fa711b0e9bd
+      internalID: -925589650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 24
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64254d277f71a94c915a3660819f4f8
+      internalID: 886056873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__39
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 24
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1b04bc106f5d946b1baa6585de1051
+      internalID: 1679079382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2957f1a6d40667e45aeb3018451e539f
+      internalID: -481820654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__41
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 0
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4cc5e90277009479f3efc9cb98ca66
+      internalID: 1671117742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__42
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 14
+        height: 19
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68b5f801e381054ea600018ebb58c03
+      internalID: -616175147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__43
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 17
+        height: 14
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81672c96a6516eb4b8c6099d631f3c29
+      internalID: -1916639333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__44
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942d8aea0facec94591b4075df4eb471
+      internalID: 1695774457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__45
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543fd994dbe098441ae219e5339724b6
+      internalID: -153478150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__46
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 14
+        height: 19
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5706e5e8a66122a4cb228ca056872ff0
+      internalID: -973399070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robinHood__47
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 17
+        height: 14
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af6e8c744114bf448e45a4039244498
+      internalID: -212709379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      robinHood__15: 839512369
+      robinHood__20: 1583476923
+      robinHood__32: -829233374
+      robinHood__44: 1695774457
+      robinHood__16: 1586680647
+      robinHood__40: -481820654
+      robinHood__3: 238458842
+      robinHood__41: 1671117742
+      robinHood__29: 1292501612
+      robinHood__8: 619190338
+      robinHood__13: 402987906
+      robinHood__47: -212709379
+      robinHood__24: 535550078
+      robinHood__22: 92068669
+      robinHood__34: -734720054
+      robinHood__28: 917196945
+      robinHood__38: 886056873
+      robinHood__5: 262771707
+      robinHood__12: -1766867557
+      robinHood__14: -779132987
+      robinHood__46: -973399070
+      robinHood__31: 999164342
+      robinHood__30: 1107945191
+      robinHood__39: 1679079382
+      robinHood__4: -749844860
+      robinHood__2: 268394585
+      robinHood__37: -925589650
+      robinHood__1: -637696212
+      robinHood__19: -1162961753
+      robinHood__42: -616175147
+      robinHood__21: -1640985744
+      robinHood__6: 337901939
+      robinHood__45: -153478150
+      robinHood__36: -1488096451
+      robinHood__7: -475667279
+      robinHood__33: -1188877009
+      robinHood__27: -223320559
+      robinHood__26: -1167139124
+      robinHood__23: -622629390
+      robinHood__0: -1631257509
+      robinHood__11: -2060963540
+      robinHood__9: -1578248344
+      robinHood__17: -553043186
+      robinHood__35: -1527635163
+      robinHood__10: -1096932280
+      robinHood__25: -580842411
+      robinHood__18: 677412005
+      robinHood__43: -1916639333
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
