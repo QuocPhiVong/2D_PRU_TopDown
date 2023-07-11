@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MoveScreen : MonoBehaviour
+public class ButtonInStartMenu : MonoBehaviour
 {
 
     /*public string mainSceneName;
@@ -29,6 +29,24 @@ public class MoveScreen : MonoBehaviour
     public void ChangeScene()
     {
         SceneManager.LoadScene("StartScene");
+    }
+    /*public void QuitGame()
+    {
+        Application.Quit();
+    }*/
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            Quit();
+    }
+
+    public void Quit()
+    {
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #else
+        Application.Quit();
+        #endif
     }
 }
 
