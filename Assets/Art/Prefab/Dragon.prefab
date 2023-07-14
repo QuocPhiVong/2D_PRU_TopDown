@@ -570,7 +570,7 @@ MonoBehaviour:
   speed: 0.5
   stoppingDistance: 1
   retreatDistance: 1
-  startTimeBtwShots: 0.25
+  startTimeBtwShots: 1
   projectile: {fileID: 8031933974064743856, guid: a1234b0166860d4438521a6b6d84b07e, type: 3}
   player: {fileID: 0}
   shotPoint: {fileID: 2603061903426876268}

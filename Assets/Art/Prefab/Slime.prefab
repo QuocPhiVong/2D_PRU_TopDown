@@ -462,7 +462,7 @@ Transform:
   - {fileID: 9213661497868172416}
   - {fileID: 9213661497620702060}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &9213661497879845597
 SpriteRenderer:
@@ -591,7 +591,7 @@ MonoBehaviour:
   speed: 0.5
   stoppingDistance: 1
   retreatDistance: 1
-  startTimeBtwShots: 0.25
+  startTimeBtwShots: 1
   projectile: {fileID: 3315580160125793885, guid: 7e98409ecda5ff948b2c0f7e598f2995, type: 3}
   player: {fileID: 4639354947479465422, guid: c5a485506e093c44096db30df7ff4871, type: 3}
   shotPoint: {fileID: 9213661497868172416}

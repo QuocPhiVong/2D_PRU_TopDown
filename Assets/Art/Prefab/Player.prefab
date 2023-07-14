@@ -418,8 +418,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   backgroundMusic: {fileID: 3242163668331133678, guid: 6c5662eca77d8e24da9dcd05341e367c, type: 3}
-  health: 10
-  maxHealth: 10
+  health: 100
+  maxHealth: 100
   soundFX: {fileID: 8300000, guid: b99da9a57308d4ba1bee1cf1d9038376, type: 3}
   gameoverSoundFX: {fileID: 8300000, guid: f30ce0b7d1f93794ab47a57273308246, type: 3}
   beingHitFx: {fileID: 8300000, guid: c9519b9ac10011645843fb87e3789988, type: 3}
