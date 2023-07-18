@@ -20,7 +20,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] FloatingHealthBar healthBar;
 
     public GameObject deathEffect;
-
+    public PanelWinDie PanelWinDie;
     private void Awake()
     {
         healthBar = GetComponentInChildren<FloatingHealthBar>();
@@ -36,23 +36,25 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     { }
-    
+
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.gameObject.tag == "EnemyBullet")
+        if (other.gameObject.tag == "EnemyBullet")
         {
             health = health - 1;
             healthBar.UpdateHealthBar(health, maxHealth);
             sfx.PlayOneShot(beingHitFx);
             Debug.Log(health);
-            if(health <= 0)
+            if (health <= 0)
             {
                 backgroundMusic.Stop();
                 Instantiate(deathEffect, transform.position, Quaternion.identity);
                 sfx.PlayOneShot(soundFX);
                 sfx.PlayOneShot(gameoverSoundFX);
                 Destroy(gameObject);
+                // PanelWinDie.showDiePanel();
+                SceneManager.LoadScene("YouDieScene");
             }
         }
     }
