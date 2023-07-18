@@ -5,49 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class ButtonInStartMenu : MonoBehaviour
 {
-
-    /*public string mainSceneName;
-    public string loadingSceneName;
-    public float loadingTime = 3f;
+    public GameObject settingsPanel;
 
     private void Start()
     {
-        StartCoroutine(LoadMainScene());
+        // Ẩn màn hình "SettingsPanel" khi bắt đầu game
+        settingsPanel.SetActive(false);
     }
 
-    private IEnumerator LoadMainScene()
+    public void OnSettingsButtonClicked()
     {
-        yield return new WaitForSeconds(loadingTime);
-
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(mainSceneName);
-
-        while (!asyncLoad.isDone)
-        {
-            yield return null;
-        }
-    }*/
-
-    public void ChangeScene()
-    {
-        SceneManager.LoadScene("StartScene");
+        // Hiển thị màn hình "SettingsPanel" khi người dùng nhấn vào nút "Settings"
+        settingsPanel.SetActive(true);
     }
-    /*public void QuitGame()
+    public void OnBackClicked()
     {
-        Application.Quit();
-    }*/
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-            Quit();
-    }
-
-    public void Quit()
-    {
-        #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-        #else
-        Application.Quit();
-        #endif
+        // Hiển thị màn hình "SettingsPanel" khi người dùng nhấn vào nút "Settings"
+        settingsPanel.SetActive(false);
     }
 }
 
