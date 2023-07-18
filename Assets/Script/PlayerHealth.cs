@@ -9,7 +9,6 @@ public class PlayerHealth : MonoBehaviour
 
     public AudioSource backgroundMusic;
     public float health = 10;
-
     public float maxHealth = 10;
     public AudioClip soundFX;
     public AudioClip gameoverSoundFX;
