@@ -6,12 +6,25 @@ using UnityEngine.UI;
 
 public class SoundManagement : MonoBehaviour
 {
-    private AudioSource[] allAudioSources;
-
-    private void Awake()
+    //private AudioSource[] allAudioSources;
+    [SerializeField]Slider volumnSlider;
+    void Start()
+    {
+        if(!PlayerPrefs.HasKey("Music Slider"))
+        {
+            PlayerPrefs.SetFloat("Music Slider", 1);
+            Load();
+        }
+        else
+        {
+            Load();
+        }
+    }
+    public void ChangeVolumn()
     {
         // Lấy tất cả các AudioSource trong scene
-        allAudioSources = FindObjectsOfType<AudioSource>();
+        //allAudioSources = FindObjectsOfType<AudioSource>();
+        AudioListener.volume=volumnSlider.value;
     }
 
     private void Update()
@@ -20,17 +33,27 @@ public class SoundManagement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.M) || Input.GetButtonDown("Music Slider"))
         {
             // Tắt hoặc bật âm thanh
-            ToggleSound();
+            //ToggleSound();
+            AudioListener.volume = 0;
         }
     }
 
-    private void ToggleSound()
+    /*private void ToggleSound()
     {
         // Duyệt qua tất cả các AudioSource và tắt/bật
         foreach (AudioSource audioSource in allAudioSources)
         {
             audioSource.mute = !audioSource.mute;
         }
+    }*/
+
+    private void Save()
+    {
+        PlayerPrefs.SetFloat("Music Slider", volumnSlider.value);
+    }
+    private void Load()
+    {
+        volumnSlider.value = PlayerPrefs.GetFloat("Music Slider");
     }
 
 }
