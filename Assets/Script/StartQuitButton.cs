@@ -21,7 +21,10 @@ namespace Assets.Script
         void Update()
         {
             if (Input.GetKeyDown(KeyCode.Escape))
+            {
                 Quit();
+            } 
+                
         }
 
         public void Quit()

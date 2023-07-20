@@ -18,7 +18,7 @@ public class KeepAudioPlay : MonoBehaviour
         
     }
 
-    void playAudio()
+    public void playAudio()
     {
         myAudio.Play();
         
